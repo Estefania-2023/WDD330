@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez</title>
+    
+    <meta name="author" content="Estefania Ortiz Ramirez">
+    <meta
+      name="description"
+      content="WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez - Peru"
+    >
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="icon" href="images/favicon.ico">
+   
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <meta property="og:title" content="WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://es.wikipedia.org/wiki/Palacio_de_Gobierno_del_Per%C3%BA#/media/Archivo:2017_Lima_-_Palacio_de_Gobierno_del_Per%C3%BA.jpg">
+    <meta property="og:url" content="https://Estefania-2023.github.io/wdd231/index">
+
+</head>
+<body>
+    <header>
+        <img src="images/aboutme1.jpeg" alt="profile" width="100" height="100">
+        <h1>Estefania Ortiz Ramirez</h1>
+        <div id="menu"></div>
+    </header>
+    <nav>
+        <ul class="menu-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/estefan%C3%ADa-ort%C3%ADz-b23721251/" target="_blank">LinkedIn</a></li>
+        </ul>          
+    </nav>
+    <main>
+        <section id="course-card" class="card">
+            <h2 class="card-heading">Course Work</h2>
+            <ul class="card-content">
+                <li><a href="chamber/directory.html">Chamber</a></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section id="place-card" class="card">
+            <h2 class="card-heading">Lima, Peru</h2>
+            <figure class="card-content">
+                <img src="images/2017_Lima_-_Palacio_de_Gobierno_del_Perú.jpg" alt="Palacio de Gobierno" width="50" height="95">
+                <figcaption>Palacio de Gobierno</figcaption>
+            </figure>
+        </section>
+        <section id="certificate-card" class="card">
+            <h2 class="card-heading">Web and Computer Programming Certificate</h2>
+            <div class="card-content">
+                <button class="not-selected" id="all">All</button>
+                <button class="not-selected" id="cse">CSE</button>
+                <button class="not-selected" id="wdd">WDD</button>
+                <hr>
+                <div id="course-cards">
+
+                </div>  
+                <hr>
+                <p id="credits-title">Credits</p>
+                <span id="total-credits"></span>
+                <span id="total-completed"></span>          
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="current-year"></span> Estefania Ortiz Ramirez, Peru
+            <img src="images/Flag_of_Peru_(1825–1884).svg.png" alt="Bandera" width="40" height="20">
+        </p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>

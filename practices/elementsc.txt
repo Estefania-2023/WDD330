@@ -1,0 +1,23 @@
+This is an object with one data property, city, and one method, greet(). If you type the object's name followed by a period into the console, like myObject., then the console will pop up a list of all the properties available to this object. You'll see that as well as city and greet, there are lots of other properties!
+
+__defineGetter__
+__defineSetter__
+__lookupGetter__
+__lookupSetter__
+__proto__
+city
+constructor
+greet
+hasOwnProperty
+isPrototypeOf
+propertyIsEnumerable
+toLocaleString
+toString
+valueOf
+
+
+Own properties
+The objects we create using the Person constructor above have two properties:
+
+-a name property, which is set in the constructor, so it appears directly on Person objects
+-a greet() method, which is set in the prototype.
