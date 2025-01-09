@@ -21,3 +21,5 @@ The objects we create using the Person constructor above have two properties:
 
 -a name property, which is set in the constructor, so it appears directly on Person objects
 -a greet() method, which is set in the prototype.
+
+this = to indicate what element is on the class/const
